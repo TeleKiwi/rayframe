@@ -7,6 +7,11 @@
 
 node-raylib is automatically included.
 # Get started
+
+## Auto
+Click the 'Use this template' button to duplicate this repo and get started with it.
+
+## Manual
     git clone https://github.com/TeleKiwi/rayframe
     cd (where you installed rayframe)
     npm start
