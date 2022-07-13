@@ -11,7 +11,7 @@ Instantiating new game object.
 * ARG 3 -  WINDOW TITLE
 * ARG 4 -  TARGET FPS
 */
-const g = new G.Game(800, 450, "UHC", 60);
+const g = new G.Game(800, 450, "Rayframe Demo", 60);
 
 // Main game loop. The functions here are explained more in game.js.
 while(g.isRunning()) {
