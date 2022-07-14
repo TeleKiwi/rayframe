@@ -5,7 +5,7 @@
 import G = require("./game");
 
 /*
-Instantiating new game object. 
+* Instantiating new game object. 
 * ARG 1 -  SCREEN WDITH
 * ARG 2 -  SCREEN HEIGHT
 * ARG 3 -  WINDOW TITLE

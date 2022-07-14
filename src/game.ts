@@ -4,13 +4,13 @@ import r = require('raylib');
 export class Game
 {
     //* Your global variables should go here.
-    screenWidth;
-    screenHeight;
-    title;
-    targetFPS;
+    screenWidth: number;
+    screenHeight: number;
+    title: string;
+    targetFPS: number;
 
     //* Called in main.js when game starts
-    constructor(screenWidth, screenHeight, title, targetFPS) {
+    constructor(screenWidth: number, screenHeight: number , title: string, targetFPS: number) {
         this.screenWidth = screenWidth;
         this.screenHeight = screenHeight;
         this.title = title;
@@ -21,12 +21,12 @@ export class Game
     }
 
     // Your game logic should go here. Don't do any rendering in this function!
-    Tick = () => {
+    Tick = (): void => {
         
     }
 
     // This is where you should interact with Raylib's drawing functions.
-    Render = () => {
+    Render = (): void => {
         r.BeginDrawing();
         r.ClearBackground(r.RAYWHITE);
 
@@ -37,16 +37,16 @@ export class Game
     }
 
     // Convenience function.
-    isRunning = () => { return !r.WindowShouldClose(); }
+    isRunning = (): boolean => { return !r.WindowShouldClose(); }
 
     // Convenience function. Returns horizontal centre.
-    xCenter = () => { return (r.GetScreenWidth() / 2); } 
+    xCenter = (): number => { return (r.GetScreenWidth() / 2); } 
 
     // Convenience function. Returns vertical centre.
-    yCenter = () => { return (r.GetScreenHeight() / 2); }
+    yCenter = (): number => { return (r.GetScreenHeight() / 2); }
 
     // Handle all your destructions here e.g unloading textures.
-    Exit = () => {
+    Exit = (): void => {
         r.CloseWindow();
     }
 }
