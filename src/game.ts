@@ -1,7 +1,7 @@
-const r = require('raylib');
+import r = require('raylib');
 
 // nice abstraction away from the bare metal Raylib
-class Game
+export class Game
 {
     //* Your global variables should go here.
     screenWidth;
@@ -50,6 +50,3 @@ class Game
         r.CloseWindow();
     }
 }
-
-// export code
-module.exports.Game = Game;

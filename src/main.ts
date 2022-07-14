@@ -2,7 +2,7 @@
 //! OTHERWISE, LEAVE THIS FILE BE!
 
 // Importing all the main functions from game.js.
-const G = require("./game.js")
+import G = require("./game.js");
 
 /*
 Instantiating new game object. 
