@@ -28,7 +28,7 @@ To put it simply, maintaining a package.json file gets... tedious, after a while
 SUPER IMPORTANT NOTE: make sure to add ALL your TypeScript files in the makefile, otherwise your game might not work properly!
 
 ## Run your files
-    make run (or whatever you renamed that file to)
+    make run
 
 ## Clear the js directory
     make clean
