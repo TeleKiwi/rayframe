@@ -3,6 +3,8 @@
 
 # Pre-reqs
 - Node.js >= 10.0
+- TypeScript
+- GNU Make
 - Git (installation)
 
 node-raylib is automatically included.
