@@ -6,6 +6,11 @@
 - Git (installation)
 
 node-raylib, TypeScript and ts-node are automatically included.
+
+# Example
+Check out a fully working demo based off of Rayframe [here](https://github.com/TeleKiwi/rayframe-demo). 
+WARNING: Generated off of v1.4.1; may be very different to the Rayframe you are currently looking at!
+
 # Get started
 
 ## Auto
